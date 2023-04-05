@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Care bears</title>
+</head>
+
+<style>
+body {
+    background-color:mistyrose;
+}
+
+.top {
+    font-style: italic;
+    color: indianred;
+    border: 3px solid indianred;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: cadetblue;
+    border: none;
+    transition-duration: 0.4s;
+}
+
+a {
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.texto {
+    font-size:large;
+    position: absolute;
+    top: 19cm;
+}
+
+.video {
+    position: absolute;
+    right: 50px;
+}
+
+.rodape {
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top:28cm;
+    width: 100%;
+}
+</style>
+<body>
+    <div class="background">
+        <header>
+            <h1 class="top">Ursinhos carinhosos</h1>
+        </header>
+        <link rel="stylesheet" href="index2.css">
+        <img class=img1
+            src="https://d3u63wyfuci0ch.cloudfront.net/wp-content/uploads/2018/07/25142737/care-bears-th-1000x500.jpg"
+            alt="ursinhos carinhosos">
+        <br>
+        <div class="botao">
+            <button><a href="https://youtu.be/zkdTsznDtqY" target="_blank">Episódio 26</a></button>
+        </div><!--botão link-->
+        <br>
+        <div class="texto">
+            <p>Care Bears, é um conjunto de personagens criado pela American Greetings em 1981 <br> para cartões de
+                boas-festas e de aniversário. Em 1983, a Kenner criou a primeira série de <br> ursos de pelucia baseados
+                nos Ursinhos Carinhosos.</p>
+        </div><!--texto-->
+        <div class="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/KjWFqIaD2Rc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </div><!--video-->
+    </div><!--background-->
+    <div class="rodape">
+        <footer>
+            <a href="#">MAIS INFORMAÇÕES</a>
+        </footer>
+    </div><!--rodape-->
+</body>
+
+</html>
